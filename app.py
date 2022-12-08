@@ -6,9 +6,9 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def index():
+def index()
     #return render_template("index.html")
-    return "Przykładowa apka python"
+    return "Przykładowa apka python 5"
  
 
 @app.route("/healthz")
