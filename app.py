@@ -8,10 +8,10 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     #return render_template("index.html")
-    return "Przykładowa apka python ostateczna
+    return "Przykładowa apka python ostateczna"
  
 
-@app.route("/healthz")
+@app.route("/healthz
 def healthz():
     resp = Response("ok")
     resp.headers['Custom-Header'] = 'Awesome'
